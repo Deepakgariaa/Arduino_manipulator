@@ -1,0 +1,109 @@
+[0.049s] Invoking command in '/home/deepak/arduinobot/build/arduinobot_remote': AMENT_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_moveit:/home/deepak/arduinobot/install/arduinobot_msgs:/home/deepak/arduinobot/install/arduinobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_moveit:/home/deepak/arduinobot/install/arduinobot_msgs:/home/deepak/arduinobot/install/arduinobot_description:/home/deepak/arduinorobot_ws/install/ign_ros2_control_demos:/home/deepak/arduinorobot_ws/install/arduinobot_bringup:/home/deepak/arduinorobot_ws/install/arduinobot_description:/home/deepak/arduinorobot_ws/install/ign_ros2_control:/home/deepak/arduinorobot_ws/install/gz_ros2_control_tests:/home/deepak/arduinorobot_ws/install/gz_ros2_control_demos:/home/deepak/arduinorobot_ws/install/gz_ros2_control:/home/deepak/arduinorobot_ws/install/arduinobot_utils:/home/deepak/arduinorobot_ws/install/arduinobot_remote:/home/deepak/arduinorobot_ws/install/arduinobot_msgs:/home/deepak/arduinorobot_ws/install/arduinobot_moveit:/home/deepak/arduinorobot_ws/install/arduinobot_firmware:/home/deepak/arduinorobot_ws/install/arduinobot_cpp_examples:/home/deepak/arduinorobot_ws/install/arduinobot_controller:/home/deepak/ros2_ws/install/my_robot_bringup:/home/deepak/ros2_ws/install/my_cpp_pkg:/home/deepak/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/deepak/arduinobot/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/arduinobot/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/deepak/arduinobot/src/arduinobot/arduinobot_remote -DCMAKE_INSTALL_PREFIX=/home/deepak/arduinobot/install/arduinobot_remote
+[0.701s] -- The C compiler identification is GNU 11.4.0
+[0.702s] -- The CXX compiler identification is GNU 11.4.0
+[0.702s] -- Detecting C compiler ABI info
+[0.702s] -- Detecting C compiler ABI info - done
+[0.702s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.702s] -- Detecting C compile features
+[0.702s] -- Detecting C compile features - done
+[0.702s] -- Detecting CXX compiler ABI info
+[0.703s] -- Detecting CXX compiler ABI info - done
+[0.703s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.703s] -- Detecting CXX compile features
+[0.703s] -- Detecting CXX compile features - done
+[0.703s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.008s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.359s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.552s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.578s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.615s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.662s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.709s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.831s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.839s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.884s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.910s] -- Looking for pthread.h
+[2.032s] -- Looking for pthread.h - found
+[2.032s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.184s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.185s] -- Found Threads: TRUE  
+[2.340s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.486s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.589s] -- Found arduinobot_msgs: 0.0.0 (/home/deepak/arduinobot/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[2.649s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.742s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[3.058s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.182s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.221s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.273s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.467s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.585s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.585s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.016s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[4.093s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[4.253s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.302s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[4.569s] -- Configuring done
+[4.620s] -- Generating done
+[4.638s] -- Build files have been written to: /home/deepak/arduinobot/build/arduinobot_remote
+[4.668s] Invoked command in '/home/deepak/arduinobot/build/arduinobot_remote' returned '0': AMENT_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_moveit:/home/deepak/arduinobot/install/arduinobot_msgs:/home/deepak/arduinobot/install/arduinobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_moveit:/home/deepak/arduinobot/install/arduinobot_msgs:/home/deepak/arduinobot/install/arduinobot_description:/home/deepak/arduinorobot_ws/install/ign_ros2_control_demos:/home/deepak/arduinorobot_ws/install/arduinobot_bringup:/home/deepak/arduinorobot_ws/install/arduinobot_description:/home/deepak/arduinorobot_ws/install/ign_ros2_control:/home/deepak/arduinorobot_ws/install/gz_ros2_control_tests:/home/deepak/arduinorobot_ws/install/gz_ros2_control_demos:/home/deepak/arduinorobot_ws/install/gz_ros2_control:/home/deepak/arduinorobot_ws/install/arduinobot_utils:/home/deepak/arduinorobot_ws/install/arduinobot_remote:/home/deepak/arduinorobot_ws/install/arduinobot_msgs:/home/deepak/arduinorobot_ws/install/arduinobot_moveit:/home/deepak/arduinorobot_ws/install/arduinobot_firmware:/home/deepak/arduinorobot_ws/install/arduinobot_cpp_examples:/home/deepak/arduinorobot_ws/install/arduinobot_controller:/home/deepak/ros2_ws/install/my_robot_bringup:/home/deepak/ros2_ws/install/my_cpp_pkg:/home/deepak/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/deepak/arduinobot/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/arduinobot/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/deepak/arduinobot/src/arduinobot/arduinobot_remote -DCMAKE_INSTALL_PREFIX=/home/deepak/arduinobot/install/arduinobot_remote
+[4.671s] Invoking command in '/home/deepak/arduinobot/build/arduinobot_remote': AMENT_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_moveit:/home/deepak/arduinobot/install/arduinobot_msgs:/home/deepak/arduinobot/install/arduinobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_moveit:/home/deepak/arduinobot/install/arduinobot_msgs:/home/deepak/arduinobot/install/arduinobot_description:/home/deepak/arduinorobot_ws/install/ign_ros2_control_demos:/home/deepak/arduinorobot_ws/install/arduinobot_bringup:/home/deepak/arduinorobot_ws/install/arduinobot_description:/home/deepak/arduinorobot_ws/install/ign_ros2_control:/home/deepak/arduinorobot_ws/install/gz_ros2_control_tests:/home/deepak/arduinorobot_ws/install/gz_ros2_control_demos:/home/deepak/arduinorobot_ws/install/gz_ros2_control:/home/deepak/arduinorobot_ws/install/arduinobot_utils:/home/deepak/arduinorobot_ws/install/arduinobot_remote:/home/deepak/arduinorobot_ws/install/arduinobot_msgs:/home/deepak/arduinorobot_ws/install/arduinobot_moveit:/home/deepak/arduinorobot_ws/install/arduinobot_firmware:/home/deepak/arduinorobot_ws/install/arduinobot_cpp_examples:/home/deepak/arduinorobot_ws/install/arduinobot_controller:/home/deepak/ros2_ws/install/my_robot_bringup:/home/deepak/ros2_ws/install/my_cpp_pkg:/home/deepak/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/deepak/arduinobot/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/arduinobot/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deepak/arduinobot/build/arduinobot_remote -- -j8 -l8
+[4.881s] [ 25%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+[4.887s] [ 50%] [32mBuilding CXX object CMakeFiles/task_server_node.dir/rclcpp_components/node_main_task_server_node.cpp.o[0m
+[4.925s] [ 50%] Built target ament_cmake_python_copy_arduinobot_remote
+[6.512s] running egg_info
+[6.513s] creating arduinobot_remote.egg-info
+[6.513s] writing arduinobot_remote.egg-info/PKG-INFO
+[6.513s] writing dependency_links to arduinobot_remote.egg-info/dependency_links.txt
+[6.515s] writing top-level names to arduinobot_remote.egg-info/top_level.txt
+[6.516s] writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[6.523s] reading manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[6.525s] writing manifest file 'arduinobot_remote.egg-info/SOURCES.txt'
+[6.678s] [ 50%] Built target ament_cmake_python_build_arduinobot_remote_egg
+[17.537s] [ 75%] [32m[1mLinking CXX executable task_server_node[0m
+[18.083s] [ 75%] Built target task_server_node
+[27.317s] [100%] [32m[1mLinking CXX shared library libtask_server.so[0m
+[28.043s] [100%] Built target task_server
+[28.063s] Invoked command in '/home/deepak/arduinobot/build/arduinobot_remote' returned '0': AMENT_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_moveit:/home/deepak/arduinobot/install/arduinobot_msgs:/home/deepak/arduinobot/install/arduinobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_moveit:/home/deepak/arduinobot/install/arduinobot_msgs:/home/deepak/arduinobot/install/arduinobot_description:/home/deepak/arduinorobot_ws/install/ign_ros2_control_demos:/home/deepak/arduinorobot_ws/install/arduinobot_bringup:/home/deepak/arduinorobot_ws/install/arduinobot_description:/home/deepak/arduinorobot_ws/install/ign_ros2_control:/home/deepak/arduinorobot_ws/install/gz_ros2_control_tests:/home/deepak/arduinorobot_ws/install/gz_ros2_control_demos:/home/deepak/arduinorobot_ws/install/gz_ros2_control:/home/deepak/arduinorobot_ws/install/arduinobot_utils:/home/deepak/arduinorobot_ws/install/arduinobot_remote:/home/deepak/arduinorobot_ws/install/arduinobot_msgs:/home/deepak/arduinorobot_ws/install/arduinobot_moveit:/home/deepak/arduinorobot_ws/install/arduinobot_firmware:/home/deepak/arduinorobot_ws/install/arduinobot_cpp_examples:/home/deepak/arduinorobot_ws/install/arduinobot_controller:/home/deepak/ros2_ws/install/my_robot_bringup:/home/deepak/ros2_ws/install/my_cpp_pkg:/home/deepak/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/deepak/arduinobot/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/arduinobot/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deepak/arduinobot/build/arduinobot_remote -- -j8 -l8
+[28.066s] Invoking command in '/home/deepak/arduinobot/build/arduinobot_remote': AMENT_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_moveit:/home/deepak/arduinobot/install/arduinobot_msgs:/home/deepak/arduinobot/install/arduinobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_moveit:/home/deepak/arduinobot/install/arduinobot_msgs:/home/deepak/arduinobot/install/arduinobot_description:/home/deepak/arduinorobot_ws/install/ign_ros2_control_demos:/home/deepak/arduinorobot_ws/install/arduinobot_bringup:/home/deepak/arduinorobot_ws/install/arduinobot_description:/home/deepak/arduinorobot_ws/install/ign_ros2_control:/home/deepak/arduinorobot_ws/install/gz_ros2_control_tests:/home/deepak/arduinorobot_ws/install/gz_ros2_control_demos:/home/deepak/arduinorobot_ws/install/gz_ros2_control:/home/deepak/arduinorobot_ws/install/arduinobot_utils:/home/deepak/arduinorobot_ws/install/arduinobot_remote:/home/deepak/arduinorobot_ws/install/arduinobot_msgs:/home/deepak/arduinorobot_ws/install/arduinobot_moveit:/home/deepak/arduinorobot_ws/install/arduinobot_firmware:/home/deepak/arduinorobot_ws/install/arduinobot_cpp_examples:/home/deepak/arduinorobot_ws/install/arduinobot_controller:/home/deepak/ros2_ws/install/my_robot_bringup:/home/deepak/ros2_ws/install/my_cpp_pkg:/home/deepak/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/deepak/arduinobot/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/arduinobot/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deepak/arduinobot/build/arduinobot_remote
+[28.077s] -- Install configuration: ""
+[28.078s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/lib/arduinobot_remote/task_server_node
+[28.079s] -- Set runtime path of "/home/deepak/arduinobot/install/arduinobot_remote/lib/arduinobot_remote/task_server_node" to ""
+[28.079s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/environment/pythonpath.sh
+[28.079s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/environment/pythonpath.dsv
+[28.080s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info
+[28.080s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info/PKG-INFO
+[28.080s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info/dependency_links.txt
+[28.081s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info/SOURCES.txt
+[28.081s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote-0.0.0-py3.10.egg-info/top_level.txt
+[28.081s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote
+[28.081s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote/alexa_interface.py
+[28.082s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote/__init__.py
+[28.082s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote/task_server.py
+[28.140s] Listing '/home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote'...
+[28.140s] Compiling '/home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote/__init__.py'...
+[28.141s] Compiling '/home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote/alexa_interface.py'...
+[28.141s] Compiling '/home/deepak/arduinobot/install/arduinobot_remote/local/lib/python3.10/dist-packages/arduinobot_remote/task_server.py'...
+[28.148s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/launch
+[28.149s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/launch/remote_interface.launch.py
+[28.149s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/lib/libtask_server.so
+[28.151s] -- Set runtime path of "/home/deepak/arduinobot/install/arduinobot_remote/lib/libtask_server.so" to ""
+[28.152s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/lib/arduinobot_remote/task_server.py
+[28.152s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/lib/arduinobot_remote/alexa_interface.py
+[28.152s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/ament_index/resource_index/package_run_dependencies/arduinobot_remote
+[28.153s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/ament_index/resource_index/parent_prefix_path/arduinobot_remote
+[28.153s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/environment/ament_prefix_path.sh
+[28.153s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/environment/ament_prefix_path.dsv
+[28.154s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/environment/path.sh
+[28.154s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/environment/path.dsv
+[28.154s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/local_setup.bash
+[28.155s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/local_setup.sh
+[28.155s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/local_setup.zsh
+[28.155s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/local_setup.dsv
+[28.155s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/package.dsv
+[28.156s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/ament_index/resource_index/packages/arduinobot_remote
+[28.156s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/ament_index/resource_index/rclcpp_components/arduinobot_remote
+[28.156s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/cmake/arduinobot_remoteConfig.cmake
+[28.156s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/cmake/arduinobot_remoteConfig-version.cmake
+[28.156s] -- Installing: /home/deepak/arduinobot/install/arduinobot_remote/share/arduinobot_remote/package.xml
+[28.160s] Invoked command in '/home/deepak/arduinobot/build/arduinobot_remote' returned '0': AMENT_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_moveit:/home/deepak/arduinobot/install/arduinobot_msgs:/home/deepak/arduinobot/install/arduinobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_moveit:/home/deepak/arduinobot/install/arduinobot_msgs:/home/deepak/arduinobot/install/arduinobot_description:/home/deepak/arduinorobot_ws/install/ign_ros2_control_demos:/home/deepak/arduinorobot_ws/install/arduinobot_bringup:/home/deepak/arduinorobot_ws/install/arduinobot_description:/home/deepak/arduinorobot_ws/install/ign_ros2_control:/home/deepak/arduinorobot_ws/install/gz_ros2_control_tests:/home/deepak/arduinorobot_ws/install/gz_ros2_control_demos:/home/deepak/arduinorobot_ws/install/gz_ros2_control:/home/deepak/arduinorobot_ws/install/arduinobot_utils:/home/deepak/arduinorobot_ws/install/arduinobot_remote:/home/deepak/arduinorobot_ws/install/arduinobot_msgs:/home/deepak/arduinorobot_ws/install/arduinobot_moveit:/home/deepak/arduinorobot_ws/install/arduinobot_firmware:/home/deepak/arduinorobot_ws/install/arduinobot_cpp_examples:/home/deepak/arduinorobot_ws/install/arduinobot_controller:/home/deepak/ros2_ws/install/my_robot_bringup:/home/deepak/ros2_ws/install/my_cpp_pkg:/home/deepak/ros2_ws/install/my_robot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/deepak/arduinobot/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/arduinobot/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/deepak/arduinobot/build/arduinobot_remote

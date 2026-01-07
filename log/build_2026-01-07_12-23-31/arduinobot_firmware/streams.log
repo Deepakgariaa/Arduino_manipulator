@@ -1,0 +1,94 @@
+[0.023s] Invoking command in '/home/deepak/arduinobot/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/deepak/arduinobot/src/arduinobot/arduinobot_firmware -DCMAKE_INSTALL_PREFIX=/home/deepak/arduinobot/install/arduinobot_firmware
+[0.168s] -- The C compiler identification is GNU 11.4.0
+[0.325s] -- The CXX compiler identification is GNU 11.4.0
+[0.337s] -- Detecting C compiler ABI info
+[0.452s] -- Detecting C compiler ABI info - done
+[0.464s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.464s] -- Detecting C compile features
+[0.465s] -- Detecting C compile features - done
+[0.469s] -- Detecting CXX compiler ABI info
+[0.594s] -- Detecting CXX compiler ABI info - done
+[0.605s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.605s] -- Detecting CXX compile features
+[0.606s] -- Detecting CXX compile features - done
+[0.623s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.866s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.092s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.201s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.217s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.242s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.318s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.439s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.449s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.521s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.553s] -- Looking for pthread.h
+[1.711s] -- Looking for pthread.h - found
+[1.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.886s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.888s] -- Found Threads: TRUE  
+[2.020s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[2.032s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.033s] -- Checking for module 'libserial'
+[2.069s] --   Found libserial, version 1.0.0
+[2.464s] -- Configuring done
+[2.498s] -- Generating done
+[2.507s] -- Build files have been written to: /home/deepak/arduinobot/build/arduinobot_firmware
+[2.524s] Invoked command in '/home/deepak/arduinobot/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/deepak/arduinobot/src/arduinobot/arduinobot_firmware -DCMAKE_INSTALL_PREFIX=/home/deepak/arduinobot/install/arduinobot_firmware
+[2.526s] Invoking command in '/home/deepak/arduinobot/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/deepak/arduinobot/build/arduinobot_firmware -- -j8 -l8
+[2.617s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[2.618s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[2.634s] [ 50%] Built target ament_cmake_python_copy_arduinobot_firmware
+[3.363s] running egg_info
+[3.363s] creating arduinobot_firmware.egg-info
+[3.364s] writing arduinobot_firmware.egg-info/PKG-INFO
+[3.364s] writing dependency_links to arduinobot_firmware.egg-info/dependency_links.txt
+[3.365s] writing top-level names to arduinobot_firmware.egg-info/top_level.txt
+[3.366s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[3.374s] reading manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[3.375s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[3.463s] [ 50%] Built target ament_cmake_python_build_arduinobot_firmware_egg
+[15.501s] [ 75%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[15.829s] [ 75%] Built target simple_serial_receiver
+[21.728s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[22.533s] [100%] Built target simple_serial_transmitter
+[22.557s] Invoked command in '/home/deepak/arduinobot/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/deepak/arduinobot/build/arduinobot_firmware -- -j8 -l8
+[22.558s] Invoking command in '/home/deepak/arduinobot/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/deepak/arduinobot/build/arduinobot_firmware
+[22.574s] -- Install configuration: ""
+[22.574s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.sh
+[22.575s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.dsv
+[22.575s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info
+[22.575s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[22.576s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[22.576s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[22.576s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[22.577s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware
+[22.577s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_transmitter.py
+[22.577s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_receiver.py
+[22.577s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/__init__.py
+[22.692s] Listing '/home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware'...
+[22.693s] Compiling '/home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/__init__.py'...
+[22.693s] Compiling '/home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_receiver.py'...
+[22.693s] Compiling '/home/deepak/arduinobot/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_transmitter.py'...
+[22.710s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver
+[22.714s] -- Set runtime path of "/home/deepak/arduinobot/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver" to ""
+[22.714s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter
+[22.726s] -- Set runtime path of "/home/deepak/arduinobot/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter" to ""
+[22.726s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter.py
+[22.727s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver.py
+[22.728s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduinobot_firmware
+[22.729s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduinobot_firmware
+[22.729s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.sh
+[22.730s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.dsv
+[22.731s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.sh
+[22.731s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.dsv
+[22.732s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.bash
+[22.732s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.sh
+[22.733s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.zsh
+[22.734s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.dsv
+[22.734s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv
+[22.735s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/ament_index/resource_index/packages/arduinobot_firmware
+[22.736s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig.cmake
+[22.736s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig-version.cmake
+[22.737s] -- Installing: /home/deepak/arduinobot/install/arduinobot_firmware/share/arduinobot_firmware/package.xml
+[22.747s] Invoked command in '/home/deepak/arduinobot/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/deepak/arduinobot/build/arduinobot_firmware

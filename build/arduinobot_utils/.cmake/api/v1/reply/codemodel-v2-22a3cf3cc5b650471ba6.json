@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5a2471df62f875110c03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arduinobot_utils",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_arduinobot_utils_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_arduinobot_utils_egg-6e9429f60cd8d933a27a.json",
+					"name" : "ament_cmake_python_build_arduinobot_utils_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_arduinobot_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_arduinobot_utils-af11d964524eafbca7e4.json",
+					"name" : "ament_cmake_python_copy_arduinobot_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "angle_conversion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-angle_conversion-7387d4327aaa34dd71d1.json",
+					"name" : "angle_conversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_utils_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_utils_uninstall-b1f9add732e033e8d692.json",
+					"name" : "arduinobot_utils_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b87e894c92a3cc36d611.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/deepak/arduinobot/build/arduinobot_utils",
+		"source" : "/home/deepak/arduinobot/src/arduinobot/arduinobot_utils"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,67 @@
+[1.647s] Invoking command in '/home/deepak/arduinobot/src/arduinobot/arduinobot_py_examples': AMENT_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deepak/arduinobot/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/arduinobot/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/deepak/arduinobot/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/arduinobot_py_examples build --build-base /home/deepak/arduinobot/build/arduinobot_py_examples/build install --record /home/deepak/arduinobot/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[2.196s] running egg_info
+[2.198s] creating ../../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info
+[2.198s] writing ../../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[2.198s] writing dependency_links to ../../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[2.199s] writing entry points to ../../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[2.199s] writing requirements to ../../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[2.199s] writing top-level names to ../../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[2.199s] writing manifest file '../../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[2.203s] reading manifest file '../../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[2.206s] writing manifest file '../../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[2.206s] running build
+[2.206s] running build_py
+[2.207s] creating /home/deepak/arduinobot/build/arduinobot_py_examples/build
+[2.207s] creating /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib
+[2.207s] creating /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[2.207s] copying arduinobot_py_examples/simple_publisher.py -> /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[2.207s] copying arduinobot_py_examples/simple_service_server.py -> /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[2.207s] copying arduinobot_py_examples/simple_moveit_interface.py -> /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[2.208s] copying arduinobot_py_examples/simple_subscriber.py -> /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[2.209s] copying arduinobot_py_examples/simple_parameter.py -> /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[2.209s] copying arduinobot_py_examples/simple_action_client.py -> /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[2.209s] copying arduinobot_py_examples/__init__.py -> /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[2.210s] copying arduinobot_py_examples/simple_service_client.py -> /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[2.210s] copying arduinobot_py_examples/simple_action_server.py -> /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[2.210s] running install
+[2.211s] running install_lib
+[2.212s] creating /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[2.213s] copying /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_publisher.py -> /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[2.213s] copying /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_service_server.py -> /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[2.213s] copying /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_moveit_interface.py -> /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[2.214s] copying /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_subscriber.py -> /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[2.214s] copying /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_parameter.py -> /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[2.214s] copying /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_action_client.py -> /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[2.214s] copying /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/__init__.py -> /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[2.215s] copying /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_service_client.py -> /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[2.215s] copying /home/deepak/arduinobot/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_action_server.py -> /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[2.215s] byte-compiling /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[2.216s] byte-compiling /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_service_server.py to simple_service_server.cpython-310.pyc
+[2.217s] byte-compiling /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_moveit_interface.py to simple_moveit_interface.cpython-310.pyc
+[2.218s] byte-compiling /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[2.219s] byte-compiling /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc
+[2.219s] byte-compiling /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_action_client.py to simple_action_client.cpython-310.pyc
+[2.220s] byte-compiling /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__init__.py to __init__.cpython-310.pyc
+[2.221s] byte-compiling /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_service_client.py to simple_service_client.cpython-310.pyc
+[2.221s] byte-compiling /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_action_server.py to simple_action_server.cpython-310.pyc
+[2.222s] running install_data
+[2.223s] creating /home/deepak/arduinobot/install/arduinobot_py_examples/share/ament_index
+[2.223s] creating /home/deepak/arduinobot/install/arduinobot_py_examples/share/ament_index/resource_index
+[2.223s] creating /home/deepak/arduinobot/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[2.223s] copying resource/arduinobot_py_examples -> /home/deepak/arduinobot/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[2.224s] copying package.xml -> /home/deepak/arduinobot/install/arduinobot_py_examples/share/arduinobot_py_examples
+[2.224s] creating /home/deepak/arduinobot/install/arduinobot_py_examples/share/arduinobot_py_examples/launch
+[2.224s] copying launch/simple_moveit_interface.launch.py -> /home/deepak/arduinobot/install/arduinobot_py_examples/share/arduinobot_py_examples/launch
+[2.224s] running install_egg_info
+[2.227s] Copying ../../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info
+[2.229s] running install_scripts
+[2.271s] Installing simple_action_client script to /home/deepak/arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[2.271s] Installing simple_action_server script to /home/deepak/arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[2.271s] Installing simple_moveit_interface script to /home/deepak/arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[2.272s] Installing simple_parameter script to /home/deepak/arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[2.272s] Installing simple_publisher script to /home/deepak/arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[2.272s] Installing simple_service_client script to /home/deepak/arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[2.273s] Installing simple_service_server script to /home/deepak/arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[2.273s] Installing simple_subscriber script to /home/deepak/arduinobot/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[2.273s] writing list of installed files to '/home/deepak/arduinobot/build/arduinobot_py_examples/install.log'
+[2.327s] Invoked command in '/home/deepak/arduinobot/src/arduinobot/arduinobot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deepak/arduinobot/install/arduinobot_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/deepak/arduinobot/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deepak/arduinobot/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/deepak/arduinobot/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/deepak/arduinobot/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/arduinobot_py_examples build --build-base /home/deepak/arduinobot/build/arduinobot_py_examples/build install --record /home/deepak/arduinobot/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data

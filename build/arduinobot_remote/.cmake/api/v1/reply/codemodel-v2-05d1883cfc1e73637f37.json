@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0897c6ac43dbb757da71.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arduinobot_remote",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_arduinobot_remote_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_arduinobot_remote_egg-ec579930edfaa5005ead.json",
+					"name" : "ament_cmake_python_build_arduinobot_remote_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_arduinobot_remote::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_arduinobot_remote-82f08e8873cb07e6335c.json",
+					"name" : "ament_cmake_python_copy_arduinobot_remote",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_remote_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_remote_uninstall-947f86ecc3eb5436fa54.json",
+					"name" : "arduinobot_remote_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_server-417abac962b1aea40c19.json",
+					"name" : "task_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task_server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task_server_node-739f42aa1a6666c3af6c.json",
+					"name" : "task_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-832d3b78ea63f4344025.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/deepak/arduinobot/build/arduinobot_remote",
+		"source" : "/home/deepak/arduinobot/src/arduinobot/arduinobot_remote"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

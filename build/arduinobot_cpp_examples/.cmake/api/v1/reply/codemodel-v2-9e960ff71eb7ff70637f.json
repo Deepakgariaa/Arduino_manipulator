@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-409d5a8f09427487c7f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arduinobot_cpp_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_cpp_examples_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_cpp_examples_uninstall-f755c9268ad6a2c7f95b.json",
+					"name" : "arduinobot_cpp_examples_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_action_client-d544f2840ae7373e24b7.json",
+					"name" : "simple_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_action_client_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_action_client_node-417a3e04ba1c3b116bd4.json",
+					"name" : "simple_action_client_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_action_server-c5748d19496030fe27bc.json",
+					"name" : "simple_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_action_server_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_action_server_node-eb280ed8bc042d3d5e7e.json",
+					"name" : "simple_action_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_lifecycle_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_lifecycle_node-d4ae7d6eeba6dc84b637.json",
+					"name" : "simple_lifecycle_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_moveit_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_moveit_interface-a5df30ec3a184abaa22d.json",
+					"name" : "simple_moveit_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_parameter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_parameter-236b49ee48428237e22e.json",
+					"name" : "simple_parameter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_publisher-267f5be30bf6f13ae4af.json",
+					"name" : "simple_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_service_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_service_client-e1219bd5a4e5c4cfa15d.json",
+					"name" : "simple_service_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_service_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_service_server-2acf5c47361a36690597.json",
+					"name" : "simple_service_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_subscriber-3b560422d7d46c77d336.json",
+					"name" : "simple_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-df0aec363b41c1bcdab2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/deepak/arduinobot/build/arduinobot_cpp_examples",
+		"source" : "/home/deepak/arduinobot/src/arduinobot/arduinobot_cpp_examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

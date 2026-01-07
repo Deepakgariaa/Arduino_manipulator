@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-c3bcc6e40e263ae43db5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arduinobot_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_arduinobot_controller_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_arduinobot_controller_egg-75548757bb73ae09dc3d.json",
+					"name" : "ament_cmake_python_build_arduinobot_controller_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_arduinobot_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_arduinobot_controller-a39b4ccf1cd42e0de5e3.json",
+					"name" : "ament_cmake_python_copy_arduinobot_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_controller-f226499ecea6f443aa3e.json",
+					"name" : "arduinobot_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_controller_uninstall-2c2a8be3cf6c5de85151.json",
+					"name" : "arduinobot_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "slider_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slider_control-c9254faefc3fdb467069.json",
+					"name" : "slider_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2516002827c3313d6878.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/deepak/arduinobot/build/arduinobot_controller",
+		"source" : "/home/deepak/arduinobot/src/arduinobot/arduinobot_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
