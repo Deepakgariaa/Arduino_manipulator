@@ -1,13 +1,3 @@
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Udemy][udemy-shield]][udemy-url]
-
-
-<p align="center">
-  <img src="media/logo.png" alt="Logo">
-</p>
-
-Arduinobot is an open-source 3D printed robot arm powered by ROS 2. Its simple design and low cost make it an excellent learning tool, featured in the [Robotics and ROS 2 - Learn by Doing! Manipulators](https://www.udemy.com/course/robotics-and-ros-2-learn-by-doing-manipulators/?referralCode=4B27D2CF97C1E099DD4C) course.
-
 
 ## :robot: Features
 
@@ -57,7 +47,7 @@ mkdir -p arduinobot/src
 2. Clone this repo
 ```sh
 cd arduinobot_ws/src
-git clone https://github.com/AntoBrandi/arduinobot.git
+git clone https://github.com/Deepakgariaa/Arduino_manipulator.git
 ```
 
 3. Install the dependencies
@@ -91,30 +81,6 @@ ros2 launch arduinobot_bringup simulated_robot.launch.py
 ```sh
 ros2 launch arduinobot_bringup real_robot.launch.py
 ```
-
-## :selfie: Media
-https://github.com/user-attachments/assets/74157eb4-2f9c-4c7f-95d8-00c09da898f3
-
-<p align="center">
-  <img src="media/BB3A0020.jpg" alt="Robot 1">
-  <img src="media/BB3A0026.jpg" alt="Robot 2">
-  <img src="media/screen_video.png" alt="Robot 3">
-</p>
-
-## :raised_hands: Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-Please refer to [CONTRIBUTING](CONTRIBUTING.md) doc.
-
-## :star2: Acknowledgements
-* [Arduino 3D-Printed Robotic Arm](https://create.arduino.cc/projecthub/mircemk/arduino-3d-printed-robotic-arm-e824d8?ref=search&ref_id=robot%20arm&offset=86)
-* [EEZYbotARM](https://www.thingiverse.com/thing:1015238)
-
-## :link: Contact
-
-Antonio Brandi - [LinkedIn]([linkedin-url]) - antonio.brandi@outlook.it
-
-Other Projects: [https://github.com/AntoBrandi](https://github.com/AntoBrandi)
 
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
